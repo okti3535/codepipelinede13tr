@@ -41,7 +41,7 @@ describe('CalculatorComponent', () => {
     component.calculatorForm.get('operator').setValue('-');
     component.onSubmit();
 
-    expect(component.result).toBe(9);
+    expect(component.result).toBe(8);
 
   });
 
